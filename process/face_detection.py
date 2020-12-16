@@ -44,11 +44,12 @@ def run(inputImg, show):
     if isImage(inputImg) is True:
         flag = detect(inputImg, show)
         if flag is True:
-            print("Accepted")
+            print(1)
         elif flag is False:
             cmd = "del {}".format(inputImg)
             os.system(cmd)
-            print("Photo Rejected")
+            print(0)
+            # return 0
         elif flag is None:
             print("Debug Mode Activated")
     elif isImage(inputImg) is False:

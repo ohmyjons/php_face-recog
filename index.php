@@ -17,7 +17,7 @@ if (!is_dir($folderUpload)){
     </head>
 <body>
     <h1>
-        Belajar Upload File
+       Udah bisa upload files
     </h1>
 
     <form action="proses.php" method="POST" enctype="multipart/form-data">
