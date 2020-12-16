@@ -46,7 +46,5 @@
     }
    
 
-    // $uploadfoto = move_uploaded_file($foto)
-
      
 ?>
